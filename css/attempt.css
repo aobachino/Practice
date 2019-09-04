@@ -1,0 +1,25 @@
+.header {
+     border: 2px solid #000;
+}
+
+.wrapper {
+     float: right;
+     margin: 0;
+     width: 100%;
+     margin-left: -300px;
+}
+
+.content {
+     border: 2px solid #000;
+     margin-left: 300px;
+}
+
+.sidebar {
+     border: 2px solid #000;
+     width: 300px;
+     height: auto;
+}
+
+.footer {
+     border: 2px solid #000;
+}

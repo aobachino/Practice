@@ -1,0 +1,57 @@
+html{
+  height: 100%;
+  background-color: #000;
+}
+body{
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  background-color: #333;
+  color: #fff;
+}
+header, footer {
+  flex: 0 0 auto;
+  background-color: #660000;
+}
+
+main {
+  display: flex;
+  height: 100%;
+  background-color: #006600;
+}
+
+section {
+  flex: 1 0 auto;
+}
+
+.side {
+  flex: 0 0 200px;
+  background-color: #000066;
+}
+.wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+.sitemap ul{
+  background-color: #777777;
+  list-style: none;  /* liにつく・を消す */
+
+  display: table;    /* sitemap の要素を横に並べる */
+  table-layout: auto; /* table列の幅を自動計算しない */
+  text-align: center;
+  width: 300px;
+  padding: 0;
+  margin: 0;
+}
+.sitemap li {
+  display: table-cell;    /* sitemap の要素を横に並べる */
+  border-right: 1px solid #fff;
+  height: 60px;
+  width: 150px;
+  vertical-align: middle; /* 縦に中央寄せ */
+  text-align: center;
+  overflow: hidden;
+}
+.sitemap li:last-child {
+  border-right: 0px;
+}
